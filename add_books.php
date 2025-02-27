@@ -5,7 +5,6 @@ include "header.php";
 $obj=new database();
 ?>
 <form id="add-form">
-
 <label for="subject">Choose subject related to book:</label>
 <select  id="subject">
 <option value="">Select subject</option>
@@ -24,10 +23,8 @@ $obj=new database();
 </select>
 <br>
 <br>
-
 <label for="Quantity">Enter the Quantity of this book:</label>
 <input type="number" id="quantity">
-
 <input type="submit" id="save-books" value="save">
 </form>
 <div id="success-msg"></div>
