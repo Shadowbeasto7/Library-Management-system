@@ -66,8 +66,6 @@ $obj = new database();
    
 </div>
 
-
-
 <?php
    include('footer.php');
 ?>
