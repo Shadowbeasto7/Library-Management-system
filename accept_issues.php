@@ -13,5 +13,4 @@ if($obj->update($issued_book_table,$par,$where)){
     echo 1;
 }
 }
-
 ?>
