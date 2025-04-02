@@ -36,6 +36,8 @@ foreach ($program as $details) {
 
                             </div>
 
+
+                            
                         </div>
                         <div class="row">
                             <div class="col-sm-6 pl-0">
