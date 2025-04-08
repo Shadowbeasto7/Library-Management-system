@@ -5,7 +5,6 @@ $obj = new database();
 include "header.php";
 include "sidebar.php";
 
-
 $select = 'COUNT(*)';
 $obj->select($issued_book_table,$select,null,'status=0');
 $res_iss=$obj->getResults();
@@ -216,27 +215,10 @@ $courses = $result_p[0]['COUNT(*)'];
         </a>
         </a>
        
-      
-    
-      
-     
-
     </div>
 
-
 </div>
-
-
-
-
-
-
-
 <?php
 include "footer.php";
-
-
-
-
 
 ?>
