@@ -9,11 +9,8 @@ $where = 'cid=' . $cid;
 $obj->select($course_table, '*', null, $where);
 $program = $obj->getResults();
 
-
 foreach ($program as $details) {
 ?>
-
-
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
             <div class="container-fluid bg-white">
@@ -35,8 +32,6 @@ foreach ($program as $details) {
                                 <input type="text" class="form-control" name="courses[]" value="<?=$details['course_name']?>" pattern='[A-Za-z0-9 ]+' placeholder="Course Name" required>
 
                             </div>
-
-
                             
                         </div>
                         <div class="row">
@@ -53,5 +48,4 @@ foreach ($program as $details) {
         </div>
     </div>
 <?php
-
 }
