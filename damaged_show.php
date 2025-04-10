@@ -5,15 +5,12 @@ include 'tables.php';
 
 $ib_id = $_POST['ib_id'];
 
-
 $where ='ib_id='.$ib_id;
 $join = "JOIN $books_table ON $issued_book_table.bid=$books_table.bid  JOIN $textbook_table ON $books_table.tb_id=$textbook_table.tb_id";
 $obj->select($issued_book_table,'*',$join,$where);
 $issued = $obj->getResults();
 
-
 foreach($issued as $details){
- 
     
  $output="<div class='row'>
       <div class='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12'>
