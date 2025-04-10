@@ -148,10 +148,6 @@ $obj = new database();
    <!-- ============================================================== -->
 </div>
 
-
-
-
-
 <!-- 
 <form id="add-form">
    <label for="Program">Enter First Name:</label>
